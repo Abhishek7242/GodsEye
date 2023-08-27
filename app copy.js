@@ -83,7 +83,10 @@ async function rainbow(){
     // await fakePromise()
     
 }
-rainbow()
+setTimeout(() => {
+    
+    rainbow()
+},20000)
 // pro('blue')
 //     .then(data => {
 //         pro('red')
